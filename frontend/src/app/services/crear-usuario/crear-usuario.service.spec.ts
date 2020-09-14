@@ -19,4 +19,10 @@ fdescribe('CrearUsuarioService', () => {
     console.log(base64)
     expect(base64).toBeTruthy();
   });
+
+  it('deberia existir la funcion post a la api', () => {
+    let base64 = service.post()
+    expect(base64).toBeTruthy();
+  });
+
 });
