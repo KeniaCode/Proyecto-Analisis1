@@ -15,6 +15,8 @@ fdescribe('CrearUsuarioService', () => {
   });
 
   it('deberia existir la importacion de la url de la api', () => {
-    expect(service.baseURL).toBeTruthy();
+    let base64 = service.getbaseURL()
+    console.log(base64)
+    expect(base64).toBeTruthy();
   });
 });
