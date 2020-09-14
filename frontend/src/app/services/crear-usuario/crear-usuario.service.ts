@@ -12,4 +12,8 @@ export class CrearUsuarioService {
   getbaseURL(): any{
     return baseURL
   }
+
+  postUser(user: any): any{
+    return true
+  }
 }
