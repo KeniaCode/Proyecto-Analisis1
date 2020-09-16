@@ -24,4 +24,8 @@ fdescribe('ControlNotasEstudianteService', () => {
   it('verificacion de funcionamiento del endpoint que obtiene tareas', () => {
     expect(service.get_tareas(data)).toBeTruthy();
   });
+
+  it('verificacion de funcionamiento del endpoint que obtiene examenes', () => {
+    expect(service.get_examenes(data)).toBeTruthy();
+  });
 });
